@@ -36,11 +36,14 @@ VMM_LIB_SRC := \
 
 HYPERKIT_LIB_SRC := \
 	src/lib/acpitbl.c \
+	src/lib/atomspace.c \
 	src/lib/atkbdc.c \
 	src/lib/block_if.c \
 	src/lib/consport.c \
 	src/lib/dbgport.c \
 	src/lib/fwctl.c \
+	src/lib/hypercog.c \
+	src/lib/hypergraphql.c \
 	src/lib/inout.c \
 	src/lib/ioapic.c \
 	src/lib/log.c \

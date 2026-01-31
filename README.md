@@ -1,10 +1,21 @@
-## [HyperKit](http://github.com/moby/hyperkit)
+## [HyperCog](http://github.com/regimazone/hypercog)
 
 ![Build Status macOS](https://circleci.com/gh/moby/hyperkit.svg?style=shield&circle-token=cf8379b302eab2bbf33821cafe164dbefb71982d)
+
+*HyperCog* extends [HyperKit](http://github.com/moby/hyperkit) with **OpenCog AtomSpace** and **HypergraphQL** integration, providing a distributed cognitive architecture for virtualized environments.
+
+### Key Features
+
+- **OpenCog AtomSpace**: Knowledge representation system for storing and reasoning about VM metadata, relationships, and cognitive knowledge
+- **HypergraphQL**: GraphQL query interface for the hypergraph knowledge base
+- **Distributed Synchronization**: Share atomspace knowledge across multiple hypervisor nodes
+- **VM-Aware Intelligence**: Track VM lifecycle, relationships, and runtime characteristics
 
 *HyperKit* is a toolkit for embedding hypervisor capabilities in your application. It includes a complete hypervisor, based on [xhyve](https://github.com/mist64/xhyve)/[bhyve](http://bhyve.org), which is optimized for lightweight virtual machines and container deployment.  It is designed to be interfaced with higher-level components such as the [VPNKit](https://github.com/moby/vpnkit) and [DataKit](https://github.com/moby/datakit).
 
 HyperKit currently only supports macOS using the [Hypervisor.framework](https://developer.apple.com/library/mac/documentation/DriversKernelHardware/Reference/Hypervisor/index.html). It is a core component of Docker Desktop for Mac.
+
+**See [docs/HYPERCOG.md](docs/HYPERCOG.md) for detailed documentation on the HyperCog features.**
 
 
 ## Requirements
